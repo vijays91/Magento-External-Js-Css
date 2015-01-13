@@ -1,0 +1,80 @@
+addExternalJs
+addExternalCss
+addItem / <type>external_js</type>
+addItem / <type>external_css</type>
+addExternalItem / <type>external_js</type>
+addExternalItem / <type>external_css</type>
+
+removeExternalJs
+removeExternalCss
+removeItem / <type>external_js</type>
+removeItem / <type>external_css</type>
+removeExternalItem / <type>external_js</type>
+removeExternalItem / <type>external_css</type>
+
+<!-- Add External-JS/CSS -->
+<action method="addExternalJs">
+	<script>//code.jquery.com/jquery-1.11.2.min.js</script>
+</action>
+
+<action method="addExternalCss">
+	<stylesheet>http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.css</stylesheet>
+</action>
+
+<action method="addItem">
+	<type>external_css</type>
+	<name>http://developer.yahoo.com/yui/build/reset/reset.css</name>
+	<params/>
+</action>
+
+<action method="addItem">
+	<type>external_js</type>
+	<name>http://yui.yahooapis.com/2.8.2r1/build/yahoo-dom-event/yahoo-dom-event.js</name>
+	<params/>
+</action>
+
+<action method="addExternalItem">
+	<type>external_js</type>
+	<name>http://yui.yahooapis.com/2.8.2r1/build/imageloader/imageloader-min.js</name>
+	<params/>
+</action>
+
+<action method="addExternalItem">
+	<type>external_css</type>
+	<name>http://yui.yahooapis.com/2.8.2r1/build/fonts/fonts-min.css</name>
+	<params/>
+</action>
+
+
+<!-- Removing External-JS/CSS -->
+<action method="removeExternalJs">
+	<script>//code.jquery.com/jquery-1.11.2.min.js</script>
+</action>
+
+<action method="removeExternalCss">
+	<stylesheet>http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.css</stylesheet>
+</action>
+	
+<action method="removeItem">
+	<type>external_css</type>
+	<name>http://developer.yahoo.com/yui/build/reset/reset.css</name>
+	<params/>
+</action>                
+
+<action method="removeItem">
+	<type>external_js</type>
+	<name>http://yui.yahooapis.com/2.8.2r1/build/yahoo-dom-event/yahoo-dom-event.js</name>
+	<params/>
+</action>
+
+<action method="removeExternalItem">
+	<type>external_js</type>
+	<name>http://yui.yahooapis.com/2.8.2r1/build/imageloader/imageloader-min.js</name>
+	<params/>
+</action>
+
+<action method="removeExternalItem">
+	<type>external_css</type>
+	<name>http://yui.yahooapis.com/2.8.2r1/build/fonts/fonts-min.css</name>
+	<params/>
+</action>
